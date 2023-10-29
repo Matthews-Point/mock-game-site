@@ -1,0 +1,19 @@
+body{
+
+}
+
+nav ul{
+    justify-content:center;
+    list-style:none;
+    display:flex;
+    flex-direction:row;
+    gap:50px;
+}
+
+.nav-seperator{
+    margin:0px;
+    padding:0px;
+    background:blue;
+    height:10px;
+    width:100%;
+}
