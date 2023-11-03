@@ -1,24 +1,37 @@
 
 body{
     font-size:45px;
-    background-image:linear-gradient(rgb(142, 190, 221),rgb(187, 187, 187));
+  background-image:url("moc-site-images/background pieces.svg"),
+    linear-gradient(rgb(142, 190, 221),rgb(187, 187, 187));
     margin:0px;
 }
 
 /*nav*/
 nav{
-    background:rgba(9, 33, 65, 0.3);
-    height:160px;
+    background:rgba(9, 33, 65, 0.5);
+    height:200px;
     display:flex;
-    align-items: center;
     justify-content: center;
+    flex-direction:row;
+}
+nav img{
+    height:160px;
+    width:160px;
+    margin:0px;
+    padding:0px;
+}
+nav li{
+    margin:0px;
+    padding:0px;
 }
 nav ul{
     margin:0px;
-    justify-content:center;
-    list-style:none;
+    padding:0px;
     display:flex;
     flex-direction:row;
+    justify-content:center;
+    align-items:center;
+    list-style:none;
     gap:80px;
 }
 
@@ -32,7 +45,7 @@ nav ul{
 
 /*Banner-title*/
 .banner-title{
-    background:rgba(0, 0, 0,0.1);
+    background:rgba(0, 0, 0,0.3);
     display:flex;
     justify-content:center;
     align-items: center;
@@ -40,7 +53,6 @@ nav ul{
     height:1600px;
 }
 .banner-title img{
-    background-image:url(/home/myzerith1/repos/mock-game-site/moc-site-images/charlesdeluvio-Mv9hjnEUHR4-unsplash.jpg);
     width:1500px;
     height:1500px;
 }
@@ -51,7 +63,7 @@ nav ul{
 
 /*About*/
 .about{
-    height:600px;
+    height:1000px;
     display:flex;
     flex-direction:column;
     justify-content:center;
@@ -62,6 +74,7 @@ nav ul{
 
 /*Stories*/
 .stories{
+    height:1500px;
     display:flex;
     flex-direction:column;
     justify-content:center;
@@ -74,8 +87,14 @@ nav ul{
     align-items: center;
 }
 
+.story1-container img, .story2-container img,.story3-container img{
+    width:200px;
+    height:200px;
+}
+
 /*Screenshots*/
 .screenshots{
+    height:1000px;
     display:flex;
     justify-content:center;
     align-items: center;
